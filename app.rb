@@ -8,7 +8,7 @@ get('/') do
   erb(:index)
 end
 
-get('/word') do
-  @word = params.fetch('word').scrabbleapp()
-  erb(:word)
-end   
+get('/title') do
+  @title = params.fetch('title').scrabbleapp()
+  erb(:title)
+end

@@ -7,8 +7,6 @@ describe('String#scrabbleapp') do
 end
 end
 
-describe('String#scrabbleapp') do
   it("fetches a total score for an inputted word") do
     expect(("ID").scrabbleapp()).to(eq(3))
-end
 end
